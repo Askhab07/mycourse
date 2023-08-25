@@ -1,0 +1,79 @@
+.header {
+    border-bottom: 1px solid #000;
+}
+
+.header__container {
+    width: 1400px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+.header__rigth {
+    display: flex;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width: 200px;
+    height: 40px;
+    outline: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.catalog svg {
+    width: 24px;
+    margin-left: 20px;
+}
+
+.my__training {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background-color: #F3F4F7;
+    border-radius: 4px;
+}
+
+.my__training button {
+    border: 0;
+    background: 0;
+    font-size: 14px;
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #F3F4F7;
+    border-radius: 50%;
+}
+
+.notification-img {
+    width: 24px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #F3F4F7;
+    border-radius: 50%;
+    font-weight: 700;
+}
