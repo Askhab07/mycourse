@@ -1,0 +1,16 @@
+.learn {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    cursor: pointer;
+}
+
+.learn img {
+    width: 200px;
+}
+
+.learn__title {
+    
+    font-size: 50px;
+    font-weight: 700;
+}
